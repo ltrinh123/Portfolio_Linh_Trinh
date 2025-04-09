@@ -1,0 +1,800 @@
+    html {
+        font-family: Shape, Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    
+    body {
+        margin: 0;
+        background-color: #fbf7f4;
+    }
+    /* Header */
+    
+    header {
+        display: flex;
+        padding-left: 57px;
+    }
+    /* logo (image) */
+    
+    .logo img {
+        width: 109px;
+        height: 66px;
+        padding-left: 40px;
+        padding-top: 11px;
+    }
+    /* 4-Catagories */
+    
+    .p-4 {
+        padding: 24px 62px 0px 73px;
+    }
+    
+    .p-4 ul {
+        display: inline-flex;
+        justify-content: center;
+        font-size: .75rem;
+        letter-spacing: 0.164rem;
+        font-weight: 500;
+    }
+    
+    .p-4 li {
+        display: flex;
+        list-style: none;
+    }
+    
+    .p-4 a {
+        color: inherit;
+        text-decoration: inherit;
+        padding-right: 12px;
+        line-height: 17px;
+    }
+    /* Search Bar */
+    
+    .search_bar {
+        padding: 24px 0px 0px 36px;
+        position: relative;
+    }
+    
+    .search_bar input {
+        background: none;
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid #d7d2cf;
+        letter-spacing: .1rem;
+        line-height: 23px;
+        padding: 7px 0 10px;
+        width: 399px;
+        font-family: Shape, Helvetica, Helvetica Neue, Arial, sans-serif;
+    }
+    
+     ::placeholder {
+        color: inherit;
+        font-size: .85em;
+    }
+    
+    button {
+        border-style: none;
+        background-color: none;
+        background: transparent;
+        font-size: 18px;
+        position: absolute;
+        right: -4px;
+        top: 31px;
+    }
+    /* Header icons  */
+    
+    .header_icons {
+        padding: 15px 20px 0px 0px;
+    }
+    
+    .header_icons img {
+        width: 20px;
+    }
+    
+    .header_icons ul {
+        display: inline-flex;
+        justify-content: center;
+    }
+    
+    .header_icons li {
+        display: flex;
+        list-style: none;
+    }
+    
+    .header_icons a {
+        padding-left: 22px;
+    }
+    /* -------------------------------------------------------- */
+    /* Promotion <p> & Link <a> */
+    
+    .promotion {
+        padding-left: 105px;
+    }
+    
+    .promotion_inside_box {
+        padding-left: 20px;
+    }
+    
+    .container {
+        margin-top: 12px;
+        margin-bottom: 26px;
+    }
+    
+    .promo_para {
+        display: inline-block;
+    }
+    
+    .type-subheading_1 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: Shape, Helvetica, Helvetica Neue, Arial, sans-serif;
+        font-size: .69rem;
+        font-weight: 600;
+        letter-spacing: .15rem;
+        line-height: 1.125rem;
+        text-transform: uppercase;
+    }
+    
+    .link_promotion {
+        text-align: left;
+        border-bottom: 1px solid #372d2b;
+        margin-right: 207px;
+    }
+    
+    .background_promotion {
+        background: #f39d9f;
+        width: 100%;
+        padding: 12px 0px 11px 0px;
+    }
+    
+    .background_promotion a {
+        color: #372d2b;
+        text-decoration: none;
+    }
+    
+    .background_promotion p {
+        padding-top: 5px;
+    }
+    /* Button "Shop Now ->" next to Promotion & Shop VIP Sellers */
+    
+    .button {
+        display: inline-block;
+        width: 157px;
+        height: 46px;
+        padding-left: 22px;
+        position: relative;
+        background-color: #e5be55;
+    }
+    
+    .arrow {
+        position: absolute;
+        top: 9px;
+        right: 21px;
+        font-size: 24px;
+    }
+    /* --------------------------- Body ---------------------------- */
+    /* Body */
+    /* Title */
+    
+    .h1_Title {
+        padding-left: 100px;
+        padding-top: 72px;
+        width: 460px;
+    }
+    
+    .h1_Title h1 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: Canela, Times, serif;
+        text-transform: none;
+        font-size: 3.3rem;
+        letter-spacing: .01rem;
+        line-height: 3.5rem;
+        font-weight: 100;
+    }
+    /* Image Carousel */
+    
+    .carousel_box {
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    
+    .h3-title
+    /* USE this Font title for "HOT DROPS" & "DESIGNERS WE LOVE" */
+    
+    {
+        font-size: .77rem;
+        font-weight: 550;
+        letter-spacing: .09375rem;
+        line-height: 1.125rem;
+        padding: 0px 0px 14px 0px;
+        text-transform: uppercase;
+    }
+    
+    article {
+        display: inline-flex;
+    }
+    
+    .box-container {
+        margin-right: 24px;
+    }
+    
+    .box-container_NewIn {
+        display: column;
+        width: 162px;
+        height: 215px;
+        background: white;
+    }
+    
+    .box-container_clothes img {
+        width: 141px;
+        height: 154px;
+        background: white;
+        padding: 30px 10px;
+    }
+    
+    .box-NewIn {
+        text-align: center;
+        font-family: Canela, Times, serif;
+        text-transform: none;
+        font-size: 1.4rem;
+        letter-spacing: .125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 83px;
+        padding-bottom: 10px;
+    }
+    
+    .box-shopNow {
+        text-align: center;
+        font-size: .75rem;
+        letter-spacing: .125rem;
+        line-height: 1.125rem;
+    }
+    /* Shop VIP Sellers */
+    
+    .Vip_Seller_Background {
+        background-color: #ebe1d7;
+        width: 78.5%;
+        margin-top: 50px;
+    }
+    
+    .Vip_Seller_Container {
+        display: flex;
+        padding-left: 100px;
+    }
+    
+    .Vip_Seller_Container h4 {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #372d2b;
+        font-family: Canela, Times, serif;
+        font-size: 2.7rem;
+        letter-spacing: -0.05rem;
+        font-weight: 100;
+        margin: 44px 0px 10px 0px;
+    }
+    
+    .box-seller img {
+        width: 596px;
+        padding-right: 48px;
+    }
+    /* Button "Shop Now ->" under to Shop VIP Sellers */
+    /* The same as btn for promotion, named ".button" */
+    
+    .button a {
+        text-decoration: none;
+        color: #372d2b;
+    }
+    
+    .button p {
+        padding-top: 5px;
+    }
+    
+    .btn-on-top-pic {
+        margin-top: -28px;
+        margin-bottom: 62px;
+        float: left;
+        position: relative;
+    }
+    /* Arrow for Shop VIP Sellers */
+    /* The same as btn for promotion */
+    /* Desingers Categories */
+    /* h3 of DESIGNERS uses the same as h3 of HOT DROPS, named ".h3-title" */
+    
+    .designer-container {
+        padding-left: 100px;
+        padding-top: 40px;
+    }
+    
+    .designer-column-container {
+        display: flex;
+        padding-left: 5px;
+    }
+    
+    .designer-column {
+        width: 32%;
+    }
+    
+    .designer-column a {
+        text-decoration: none;
+        font-family: canela;
+        font-size: 2.8rem;
+        letter-spacing: .001rem;
+        line-height: 4.5rem;
+        color: inherit;
+    }
+    
+    .designer-column li {
+        list-style: none;
+    }
+    
+    .designer-column ul {
+        padding: 0px;
+    }
+    /* Wardrobe Value */
+    
+    .wardrobe-background {
+        background-color: #ebe1d7;
+        width: 913px;
+        height: 244px;
+        margin: 56px 0px 93px 425px;
+    }
+    
+    .wardrobe-container {
+        padding: 47px 102px;
+    }
+    
+    .wardrobe-container h4 {
+        font-size: 2.7rem;
+        letter-spacing: -0.06rem;
+        line-height: 4.5rem;
+        color: inherit;
+        font-weight: 100;
+        font-family: canela;
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .wardrobe_p {
+        font-size: .75rem;
+        letter-spacing: .14rem;
+        line-height: 1.125rem;
+        font-weight: 100;
+        color: inherit;
+        padding-bottom: 35px;
+        margin-top: 0px;
+        width: 469px;
+    }
+    
+    .button-wardrobe {
+        width: 182px;
+    }
+    /* Clothes & Accessories Categories */
+    
+    .categories-container {
+        padding-left: 100px;
+    }
+    
+    .categories-img-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .categories-box {
+        width: 20%;
+        padding-right: 54px;
+    }
+    
+    .categories-box img {
+        width: 102%;
+    }
+    
+    .categories-box h3 {
+        margin-top: 10px;
+        margin-bottom: 11px;
+    }
+    /* British Vogue */
+    
+    .british_vougue_background {
+        background-color: #ebe1d7;
+        width: 913px;
+        height: 254px;
+        margin: 56px 0px 93px 100px;
+    }
+    
+    .british_vougue_container h4 {
+        font-size: 2.0rem;
+        letter-spacing: -0.02rem;
+        word-spacing: -0.09rem;
+        line-height: 2.4rem;
+        color: inherit;
+        font-weight: 100;
+        font-family: canela;
+        margin: 10px 0px 0px 0px;
+        width: 439px;
+    }
+    
+    .british_vougue_container {
+        padding: 59px 10px 10px 212px;
+    }
+    /* Testimonial */
+    
+    .testimonial-background {
+        background-color: #ebe1d7;
+    }
+    
+    .testimonail-container {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 52px 0px 52px 107px;
+    }
+    /* ------- Excellent column ---------- */
+    
+    .testimonial-excellent-column {
+        display: flex;
+        flex-direction: column;
+        width: 21.8%;
+        padding-right: 31px;
+    }
+    
+    .testimonial-excellent-column a {
+        color: #372d2b;
+        font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+        font-size: .75rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+    }
+    
+    .testimonial-excellent-column h4 {
+        font-size: 22px;
+        letter-spacing: 0.03rem;
+        margin: 0px;
+        padding-bottom: 6px;
+    }
+    
+    .testimonial-excellent-column p {
+        color: #372d2b;
+        font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+        letter-spacing: 0.07rem;
+    }
+    
+    .exellent-bigger-stars {
+        width: 44%;
+        padding-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 11px;
+    }
+    
+    .trustPilot-logo {
+        margin-bottom: 0px;
+        width: 33%;
+    }
+    /* ----------Execellent Column end---------------- */
+    
+    .testimonial-column {
+        width: 21.8%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 31px;
+    }
+    
+    .testimonial-column img {
+        width: 33%;
+        padding-left: 3px;
+        margin-top: 52px;
+    }
+    
+    .testimonial-column p {
+        color: #372d2b;
+        font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+        letter-spacing: 0.07rem;
+    }
+    
+    .testimonial-column span {
+        color: #372d2b;
+        font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+        font-size: .75rem;
+        font-weight: 400;
+        line-height: 1.125rem;
+        letter-spacing: 0.06rem;
+    }
+    
+    .testimonial-column h5 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        letter-spacing: 0.06rem;
+    }
+    /* -------------------------------------------------------- */
+    /* Footer */
+    
+    footer {
+        display: flex;
+        padding-left: 100px;
+        background-color: #372d2b;
+    }
+    
+    .footer_container {
+        display: inline-flex;
+    }
+    /* Footer LOGO */
+    
+    .footer_logo img {
+        width: 109px;
+        height: 53px;
+        padding-top: 30px;
+    }
+    /* Footer Promotion */
+    
+    .footer_font
+    /* Apply to all footer font*/
+    
+    {
+        font-size: .75rem;
+        letter-spacing: .14rem;
+        line-height: 1.125rem;
+        font-weight: 100;
+        color: #fbf7f4;
+        padding-bottom: 10px;
+    }
+    
+    .footer {
+        padding-left: 215px;
+        padding-top: 18px;
+    }
+    
+    .footer h5 {
+        border-top: 0.1px solid #4a4847;
+        font-size: .72rem;
+        letter-spacing: .125rem;
+        line-height: 1.125rem;
+        font-weight: 50;
+        color: #fbf7f4;
+        margin-bottom: -4px;
+        padding-top: 20px;
+    }
+    /* Footer Email */
+    
+    .email_input {
+        width: 455px;
+        background-color: white;
+    }
+    
+    .email_input form {
+        display: flex;
+    }
+    /* Email arrow "->" */
+    
+    .email_input form a {
+        background-color: white;
+        padding: 12px 23px 12px 20px;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+    
+    .email_input input {
+        background-color: white;
+        width: 100%;
+        padding: 10px 0px 10px 22px;
+        margin: 0;
+        font-family: Shape, Helvetica, Helvetica Neue, Arial, sans-serif;
+        color: #372d2b;
+        font-size: .84rem;
+        font-weight: 350;
+        letter-spacing: .098rem;
+        line-height: 1.125rem;
+        border: none;
+    }
+    /* Footer Policy */
+    
+    .policy a {
+        color: #fbf7f4;
+        text-decoration: none;
+        border-bottom: 0.1px solid #a67e54;
+        padding-bottom: 1.1px;
+    }
+    /* Contact */
+    
+    .contact {
+        display: inline-flex;
+        padding-bottom: 10px;
+    }
+    
+    .contact a {
+        text-decoration: none;
+        font-size: .75rem;
+        letter-spacing: .14rem;
+        line-height: 1.15rem;
+        font-weight: 100;
+        color: #fbf7f4;
+    }
+    
+    .contact li {
+        list-style: none;
+    }
+    
+    .contact ul {
+        padding: 0px;
+        padding-top: 6px;
+    }
+    
+    .contact_style {
+        width: 274px;
+        margin-right: 48px;
+        border-top: 0.5px solid #685e59;
+    }
+    /* Payment */
+    
+    .paymentType {
+        display: inline-flex;
+        padding: 25px 435px 50px 0px;
+        border-top: 0.5px solid #685e59;
+    }
+    
+    .paymentType img {
+        width: 483px;
+        height: 38px;
+    }
+    /* ------------ Media size MOBIE  Screen------------- */
+    /* ------ Media size TABLET Screen ---------------------------------- */
+    
+    @media only screen and (min-width: 740px) and (max-width: 1024px) {
+        /* Header TABLET */
+        header {
+            padding-left: 17px;
+        }
+        /* Header Logo TABLET */
+        .logo-tablet img {
+            width: 75px;
+            height: 45px;
+            padding-left: 0px;
+            padding-top: 16px;
+        }
+        /* P4 TABLET */
+        .p-4-tablet {
+            display: none;
+        }
+        /* Header Icons TABLET */
+        .header_icons-tablet {
+            padding: 11px 10px 0px 0px;
+        }
+        .header_icons-tablet img {
+            width: 20px;
+        }
+        .header_icons-tablet ul {
+            padding-left: 38px;
+        }
+        /* Promotion TABLET */
+        .promotion-tablet {
+            padding-left: 23px;
+        }
+        .link_promotion-tablet {
+            margin-right: 0px;
+        }
+        .tablet-promotion-btn {
+            float: right;
+            margin-right: 25px;
+            width: 144px;
+        }
+        .background_promotion-tablet {
+            height: 89px;
+        }
+        /* Search Bar TABLET*/
+        .search_bar-tablet {
+            padding: 18px 0px 0px 49px;
+        }
+        .search_bar-tablet input {
+            width: 351px;
+            font-size: .7rem;
+        }
+        /* Promotion & Link TABLET */
+        .type-subheading_1 {
+            font-size: .6rem;
+            letter-spacing: .11rem;
+        }
+        .span-promo {
+            padding-left: 200px;
+        }
+        /* --------------------------- Body Tablet ---------------------------- */
+        /* H1 Title TABLET*/
+        .h1_Title-tablet {
+            padding-left: 23px;
+            padding-top: 47px;
+            width: 298px;
+        }
+        .h1_Title-tablet h1 {
+            font-size: 3.1rem;
+        }
+        /* Vip Seller TABLET */
+        .Vip_Seller_Background-tablet {
+            background-color: #ebe1d7;
+            width: 81.1%;
+            margin-top: 50px;
+        }
+        .Vip_Seller_Container-tablet {
+            padding-left: 23px;
+            width: 119%;
+        }
+        .Vip_Seller_Container-tablet h4 {
+            font-size: 2rem;
+        }
+        .box-seller-tablet {
+            margin-right: 62px;
+        }
+        .box-seller-tablet img {
+            width: 109%;
+            padding-right: 0px;
+        }
+        /* Wardrobe Value TABLET*/
+        .wardrobe-background-tablet {
+            width: 77%;
+            margin: 0px;
+            height: 290px;
+            float: right;
+            margin-right: 25px;
+        }
+        .wardrobe-container-tablet {
+            padding: 59px 0px 0px 64px;
+        }
+        .wardrobe-container-tablet h4 {
+            font-size: 2rem;
+            width: 213px;
+            line-height: 2.3rem;
+        }
+        .wardrobe_p-tablet {
+            font-size: .811rem;
+            margin-top: 10px;
+            margin-bottom: 17px;
+            width: 279px;
+        }
+        .tablet-wardrobe-btn {
+            width: 160px;
+        }
+        /* British Vogue TABLET */
+        .british_vougue_background-tablet {
+            margin: 0px;
+            width: 768px;
+        }
+        .british_vougue_container-tablet {
+            padding: 59px 10px 10px 0px;
+        }
+        .british_vougue_container-tablet h4 {
+            width: 324px;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
+        }
+        /* Categories TABLET */
+        .tablet-categories-font {
+            padding-top: 234px;
+            margin-top: 18%;
+        }
+        .categories-container-tablet {
+            padding-left: 23px;
+        }
+        /* --------------------------- Footer ---------------- */
+        footer {
+            padding-left: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        .footer {
+            padding-left: 0px;
+        }
+        /* Footer CONTACT TABLET */
+        .contact_style-tablet {
+            width: 200px;
+            margin-right: 0px;
+        }
+        /* Payment TABLET */
+        .paymentType-tablet {
+            display: flex;
+            padding: 25px 435px 50px 0px;
+            border-top: 0.5px solid #685e59;
+        }
+    }

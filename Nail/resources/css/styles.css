@@ -1,0 +1,604 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------REUSABLE VARIABLE------------------- */
+
+
+/* -------------------------------------------------------- */
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.logo-small {
+    width: 240px;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+
+/* ----- Button ---- */
+
+.btn-bottom {
+    display: inline-block;
+    margin: 20px;
+}
+
+.skip-btn {
+    color: black;
+    background-color: white;
+    width: 145px;
+    margin-bottom: 0px;
+    height: 58px;
+    border-radius: 30px;
+    font-size: 27px;
+}
+
+.skip-btn:active,
+.skip-btn:hover {
+    color: white;
+    background-color: #001aff;
+    border: none;
+}
+
+.long-next-btn {
+    width: 145px;
+    height: 58px;
+    border-radius: 30px;
+    font-size: 27px;
+    background-color: #001aff;
+    border: none;
+}
+
+
+/* --- Checkbox ************* --- */
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------NAVIGATION ICONS------------------- */
+
+
+/* -------------------------------------------------------- */
+
+nav {
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav i {
+    color: white;
+}
+
+nav .material-icons {
+    font-size: 28px;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------PHONE-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------Point------- */
+
+.point-section {
+    float: left;
+    width: 40%;
+}
+
+.point-box-container {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.point-box-container h2 {
+    font-size: 47px;
+    font-weight: 300;
+}
+
+.point-box-container p {
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.point-box-container h5 {
+    font-size: 25px;
+    margin-top: 26px;
+    font-weight: 500;
+}
+
+.point-box-container .box {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.point-box-container .row .box-1 {
+    background-color: #00e9ff;
+}
+
+.point-box-container .row .box-2 {
+    background-image: linear-gradient(to right, #ff719a, #f9ebb6);
+}
+
+.point-box-container .row .box-3 {
+    background-image: linear-gradient(to right, #a884e9, #39aaf5);
+    margin-bottom: 0px;
+}
+
+
+/* -- Arrow --- */
+
+.point-box-container i {
+    margin-left: 46.5%;
+    font-size: 30px;
+}
+
+.point-box-container .arrow-left {
+    display: none;
+}
+
+.point-box-container .arrow-right {
+    display: none;
+}
+
+
+/* ----- Agreemnent ------ */
+
+.agreement-section {
+    width: 486px;
+    margin-left: 26%;
+}
+
+.agreement-section p {
+    font-size: 15px;
+    width: 464px;
+    float: right;
+}
+
+.agreement-section a {
+    color: white;
+}
+
+
+/* ---------------------Phone Number---------------------- */
+
+.phone-number-section {
+    float: right;
+    width: 50%;
+    margin-top: 45px;
+}
+
+.phone-number-section p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo {
+    width: 251px;
+    margin-left: 30%;
+}
+
+.phone-number-section input {
+    margin-left: 26%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 40px;
+    width: 45%;
+    border: none;
+    text-align: center;
+    outline: none;
+    color: white;
+}
+
+
+/* Keyboard */
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-keyboard {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+button:hover,
+button:active {
+    background-color: white;
+    color: black;
+}
+
+.delelete-btn {
+    border: none;
+    font-size: 25px;
+}
+
+.next-btn {
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #001aff;
+    border: none;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------EMAIL-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* ------ Navigation Icons ------ */
+
+.nagvition-icons .close-icon {
+    width: 100%;
+    color: #001aff;
+}
+
+
+/* --------- Email ------ */
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+
+
+/* Button */
+
+.email-row {
+    margin-bottom: 3%;
+}
+
+.email-row p {
+    text-align: center;
+    font-size: 33px;
+}
+
+.email-row input {
+    font-size: 37px;
+    color: white;
+    text-align: center;
+    width: 551px;
+    padding-bottom: 10px;
+    margin-left: 9%;
+    margin-right: 1%;
+    background-color: transparent;
+    border-bottom-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.email-row .input-and-next-btn {
+    width: 120%;
+}
+
+.email-row .input-and-next-btn ::placeholder {
+    color: white;
+}
+
+
+/* Button */
+
+.email-row button {
+    width: 188px;
+    height: 58px;
+    border-radius: 30px;
+    font-size: 27px;
+    background-color: #001aff;
+    border: none;
+}
+
+.email-row button:active,
+.email-row button:hover {
+    color: #001aff;
+    background-color: white;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------BIRTHDAY-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+.birthday-row {
+    margin-bottom: 5%;
+}
+
+.birthday-row form {
+    margin: 20px 0;
+    width: 100%;
+}
+
+.birthday-row p {
+    text-align: center;
+}
+
+.birthday-row select {
+    width: 146px;
+    height: 53px;
+    font-size: 31px;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: rgba(190, 184, 184, 0.1);
+    -webkit-appearance: none;
+    border-radius: 17px;
+}
+
+.birthday-row button {
+    margin-left: 10px;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------SERVICES-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+.service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 0;
+}
+
+.service-container {
+    width: 80%;
+    overflow: scroll;
+    height: 543px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.service-container::-webkit-scrollbar {
+    display: none;
+}
+
+.service-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.service-section .logo-small {
+    display: flex;
+    align-items: center;
+    margin-left: -6%;
+}
+
+.service-row {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.service-row input {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.service-row label {
+    font-size: 30px;
+    margin-left: 56px;
+}
+
+.ser-row {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+    width: 48%;
+}
+
+.service-row h2 {
+    font-weight: 100;
+    font-size: 42px;
+}
+
+.service-row h5 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+
+/* ----- Arrow ----- */
+
+.service-section .arrow-up {
+    font-size: 33px;
+    position: absolute;
+    top: 17%;
+    right: 8%;
+}
+
+.service-section .arrow-down {
+    font-size: 33px;
+    position: absolute;
+    bottom: 17%;
+    right: 8%;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------PREFERRED-STAFF-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+
+/* Staff container */
+
+.staff-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: scroll;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 510px;
+    margin-top: 35px;
+    margin-left: 26px;
+    margin-bottom: 16px;
+}
+
+.staff-box {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    background-color: rgba(94, 118, 224, 0.281);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.staff-row h2 {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.staff-box p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.staff-box img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+.staff-container::-webkit-scrollbar {
+    display: none;
+}
+
+.staff-container {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Arrow */
+
+.staff-section .arrow-up {
+    top: 21%;
+    right: 21%;
+}
+
+.staff-section .arrow-down {
+    bottom: 11%;
+    right: 21%;
+}
+
+
+/* -------------------------------------------------------- */
+
+
+/* --------------------SUCCESSFUL-PAGE-SECTION------------------ */
+
+
+/* -------------------------------------------------------- */
+
+.success-section img {
+    width: 10%;
+}

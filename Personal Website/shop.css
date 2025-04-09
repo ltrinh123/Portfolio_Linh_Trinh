@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linh-container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.linh-navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.body nav {
+    flex: 1;
+    text-align: right;
+}
+.body nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.body nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.body a {
+    text-decoration: none;
+    color: rgb(214, 38, 135);
+    font-size: 25px;
+}
+
+.linh-checkout {
+    width: 30px;
+    margin-right: -19px;
+    transition: transform 0.5s;
+}
+.linh-checkout:hover {
+    transform: translateY(-5px)
+}
+.linh-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.linh-row2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.linh-header {
+    background-color: rgb(214, 38, 135);
+    width: 100%;
+    padding: 20px;
+}
+.body h1 {
+    color:white;
+    text-align: center;
+}
+.linh-p {
+    font-size: 17px;
+    color: white;
+    text-align: center;
+}
+
+
+.linh-categories {
+    margin: 60px 0;
+}
+.linh-img {
+    flex-basis: 23%;
+    min-width: 50px;
+    height: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #cac8c8;
+}
+.linh-img:hover {
+    transform: translateY(-5px)
+}
+.linh-img img {
+    width: 100%;
+    height: 90%;
+}
+.linh-small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.linh-rating .fa {
+    color:rgb(214, 38, 135);
+}
+.linh-footer .fa {
+    color: white;
+    margin: 10px;
+}
+
+.linh-footer {
+    background-color: rgb(214, 38, 135);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart {
+    width: 100%;
+    font-size: 15px;
+    position:static; 
+    border-style: none;
+    background-color: white;
+    color: white;
+}
+.cart:hover {
+    background-color: rgb(214, 38, 135); 
+    color: white;
+}
+.checkout-button {
+    background-color: rgb(214, 38, 135);
+    color: white;
+    border-radius: 0.2em;
+    padding: 5px;
+}
+.checkout-button:hover {
+    background-color: white;
+    color: rgb(214, 38, 135); 
+    border-color: rgb(214, 38, 135);
+}

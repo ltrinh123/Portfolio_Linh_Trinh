@@ -1,0 +1,62 @@
+body {
+    background-image: url(image/lightpink_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.aboutme {
+    font-size: 80px;
+    color: #fa2b70;
+    text-shadow: 2px 3px white;
+    display: flex;
+    justify-content: center;
+}
+.white {
+    display: flex;
+    margin: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px grey;
+}
+.pink {
+    display: flex;
+    margin: 40px;
+    background-color: rgb(247, 166, 206);
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px grey;
+}
+
+.inside {
+    width: 50%;
+    justify-content: center;
+    padding: 88px 23px;
+}
+.photo {
+    width: 55%;
+    text-align: right;
+    padding: 23px;
+    padding-top: 19px;
+}
+.photo2 {
+    width: 40%;
+    height: 10%;
+    text-align: right;
+    padding: 23px;
+    padding-top: 32px;
+}
+
+.text {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding-top: 26px;
+    color: #fa2b70;
+    font-weight: bold;
+}
+.text2 {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding-top: 72px;
+    color: whitesmoke;
+    font-weight: bold;
+}

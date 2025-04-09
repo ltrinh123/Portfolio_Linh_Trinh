@@ -1,0 +1,294 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="shop.css">
+        <title> LINH'S SHOP </title>
+        <link rel="icon" type="image" href="Linhicon.jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="body">
+            <div class="linh-container">
+                <div class="linh-navbar">
+                    <div class="linh-logo">
+                        <img src="Linhlogo.png" width="130px">
+                    </div>
+                    <nav>
+                        <ul onclick="checkout()">
+                            <li> <a href="Shop.html">
+                                    <img class="linh-checkout" src="checkout-512.jpg">
+                                </a>
+                            <li> <a style="cursor:pointer"> Check Out </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div class="container">
+
+                    <!-- Trigger the modal with a button -->
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title"
+                                        style="text-align: center; color: rgb(214, 38, 135); font-size: 35px">
+                                        Fill Out Your Information </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div style="display: flex;">
+                                        <div class="linh-modal" style="width: 23%;">
+                                            <form style="padding-bottom: 10px;">
+                                                <label for="name"> Name: </label><br>
+                                                <input type="text" name="name"><br>
+                                                <label for="phonenumber"> Phone Number: </label><br>
+                                                <input type="text" name="phonenumber"><br>
+                                                <label for="email"> Email: </label><br>
+                                                <input type="email" name="email"><br>
+                                                <label for="homeaddress"> Home Address: </label><br>
+                                                <input type="text" name="homeaddress"><br>
+                                            </form>
+                                        </div>
+                                        <div style="width:77%">
+                                            <table border="1px" id="show" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="25%">
+                                                            Image
+                                                        </th>
+                                                        <th width="25%">
+                                                            Product
+                                                        </th>
+                                                        <th width="25%">
+                                                            Quantity
+                                                        </th>
+                                                        <th width="25%">
+                                                            Price
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                
+                                                <tbody>
+
+
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr style="text-align: center;">
+                                                        <td colspan="4">Total: <span id="total"></span></td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="modal-footer" style="text-align: right;">
+
+                                        <button type="button" class="btn btn-default"
+                                            style="background-color: rgb(214, 38, 135); color: white"
+                                            data-dismiss="modal">
+                                            Close</button>
+                                        <button class="checkout-button" onclick="alert('success');$('#myModal').modal('hide')"> Check out </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Header -->
+                    <div class="linh-row">
+                        <div class="linh-header">
+                            <h1> Give Your Leg A Sexy Day </h1>
+                            <p class="linh-p"> Choose for yourselves the best high heels </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="linh-categories">
+                    <div class="linh-small-container">
+                        <div class="linh-row">
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Sam Edelman Yaro Suede.png">
+                                <button class="cart" onclick="addCart(this,1)"> Add To Cart </button>
+                                <h4 class="linh-product"> Same Edelman Yaro Suede </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">300</span> </p>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Alexander Wang Nova.png">
+                                <button class="cart" onclick="addCart(this,2)"> Add To Cart </button>
+                                <h4 class="linh-product"> Alexander Wang Nova </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">350</span> </p>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Christina Loubouti Sparkle.png">
+                                <button class="cart" onclick="addCart(this,3)"> Add To Cart </button>
+                                <h4 class="linh-product"> Christina Loubouti Sparkle </h4>
+                                <div>
+                                    <div class="linh-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half-o"></i>
+                                    </div>
+                                    <p > $<span class="linh-price">420</span> </p>
+                                </div>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Alexandre Birman Clarita.png">
+                                <button class="cart" onclick="addCart(this,4)"> Add To Cart </button>
+                                <h4 class="linh-product"> Alexandre Birman Clarita </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">380</span> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="linh-small-container">
+                        <div class="linh-row2">
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Christina Loubouti White.png">
+                                <button class="cart" onclick="addCart(this,5)"> Add To Cart </button>
+                                <h4 class="linh-product"> Christina Loubouti White </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">580</span> </p>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Aquazzura Tequila Plexi.png">
+                                <button class="cart" onclick="addCart(this,6)"> Add To Cart </button>
+                                <h4 class="linh-product"> Aquazzura Tequila Plexi </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">570</span></p>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Christina Loubouti Multicolor.png">
+                                <button class="cart" onclick="addCart(this,7)" > Add To Cart </button>
+                                <h4 class="linh-product"> Christina Loubouti Multicolor </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">520</span> </p>
+                            </div>
+                            <div class="linh-img">
+                                <img class="linhs-img" src="Christina Louboutin Black Some.png">
+                                <button class="cart" onclick="addCart(this,8)"> Add To Cart </button>
+                                <h4 class="linh-product"> Christina Loubouti Black Some </h4>
+                                <div class="linh-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p > $<span class="linh-price">650</span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="linh-container">
+                    <div class="linh-row">
+                        <div class="linh-footer">
+                            <h1> Follow me </h1>
+                            <a href="https://www.facebook.com/profile.php?id=100058729089213">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="https://www.instagram.com/linhtrinh9763/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="mailto:trinhlinh444@gmail.com">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <input type="hidden" id="temp">
+
+     <script>
+         function addCart(_this,id){
+            var img =$(_this).closest('.linh-img').find('.linhs-img').attr('src');
+            var product =$(_this).closest('.linh-img').find('.linh-product').html();
+            var price =$(_this).closest('.linh-img').find('.linh-price').html();
+            let json = { 'id': id, 'img': img, 'product': product, 'price': price}
+            let temp = $('#temp').val();
+            if (temp) {
+                temp = JSON.parse($('#temp').val());
+            } else {
+                temp = []
+            }
+            temp.push(json)
+            $("#temp").val(JSON.stringify(temp))
+            alert("Add product success !!! ")
+         }
+         function checkout(){
+             $("#myModal").modal()
+             temp = JSON.parse($('#temp').val());
+             let html ="";
+             sum = 0
+             $.each(temp,function(key,val){
+                 sum = Number(sum) + Number(val.price)
+                 html +=`<tr style="text-align:center"><td> <img width="100%" src="${val.img}">  </td> <td> ${val.product} </td> <td>1</td> <td>$${val.price}</td> </tr>`
+             })
+             $('#show tbody').html(html)
+             $('#total').html("$"+sum)
+
+             
+
+
+         }
+         
+     </script>       
+
+    </body>
+
+    </html>
